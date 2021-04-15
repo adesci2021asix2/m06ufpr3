@@ -1,11 +1,11 @@
 #!/bin/bash
-
+#Adrià Escarceller i Cid
 function muestra_servicios {
-echo "SERVEIS A POSAR EN MARXA:"
+echo "SERVICIOS PARA PONER EL MARCHA:"
 echo "a) cups"
 echo "b) ssh"
 echo "c) apache2"
-echo -n "Selecciona una opció: "
+echo -n "Selecciona una opcinN: "
 read opc	
 return 0
 }
@@ -41,4 +41,4 @@ then
 fi
 muestra_servicios
 ctrl_servicios
-exit 9
+exit 0
